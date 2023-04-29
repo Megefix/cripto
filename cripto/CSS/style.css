@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url(header.css);
+@import url(main.css);
+@import url(ourteam.css);
+@import url(token.css);
+@import url(animation.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (max-width: 769px) {
+  .main {
+    padding: 0 50px 50px 50px;
+  }
+  .header {
+    padding: 20px 50px 50px 50px;
+  }
+  .main__block {
+    width: 60vw;
+  }
+  .main__img {
+    width: 236px;
+    height: 236px;
+  }
+  .header__list {
+    width: 16vw;
+  }
+  .trade__img {
+    width: 80vw;
+    height: 50vh;
+    margin-top: 8%;
+  }
+  .info__block {
+    width: 43vw;
+    height: 84vh;
+  }
+  .team {
+    width: 90vw;
+  }
+  .team__block {
+    width: 42vw;
+    height: 100vh;
+  }
+  .team__img {
+    height: 50vh;
+    width: 36vw;
+  }
+  .info {
+    width: 90vw;
+  }
+  .text__block {
+    text-align: center;
+  }
+  .road__block {
+    height: 42vh;
+    padding: 30px 80px 30px 30px;
+  }
+  .tokn {
+    padding: 50px 50px 50px 50px;
+  }
+  .title__block {
+    padding: 0 50px 0 50px;
+  }
+  .drop__title {
+    font-size: 25px;
+  }
+  .drop__text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .drop__img {
+    width: 20vw;
+    height: 24vh;
+  }
+}
+@media screen and (max-width: 426px) {
+  .main__start {
+    flex-direction: column;
+  }
+  .header {
+    padding: 20px 10px 20px 20px;
+    width: 100vw;
+  }
+  .main {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__list {
+    justify-content: space-between;
+    width: 32vw;
+  }
+  .slide {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .main__title {
+    width: 70vw;
+  }
+  .main__text {
+    width: 70vw;
+  }
+  .main__block {
+    width: 95vw;
+  }
+  .main__img {
+    width: 256px;
+    height: 256px;
+    margin-top: 10%;
+  }
+  .main__img__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .trade__img {
+    width: 90vw;
+    height: 28vh;
+  }
+  .main__button:nth-child(1) {
+    width: 106px;
+    height: 40px;
+  }
+  .main__button:nth-child(2) {
+    width: 118px;
+    height: 40px;
+  }
+  .main__button:nth-child(3) {
+    width: 81px;
+    height: 40px;
+  }
+  .info__part {
+    flex-direction: column;
+    margin-top: 0%;
+  }
+  .info__block {
+    width: 90vw;
+    height: 62vh;
+    margin-top: 8%;
+  }
+  .info {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+  }
+  .info__item {
+    font-size: 20px;
+  }
+
+  .team {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team__part {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .team__block {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 8%;
+    padding: 30px 10px 10px 10px;
+  }
+  .team__img {
+    width: 80vw;
+    height: 40vh;
+  }
+  .team__text {
+    width: 70vw;
+    font-size: 22px;
+  }
+  .text__block {
+    width: 70vw;
+    text-align: center;
+  }
+  .title__block {
+    padding: 0 0 8% 0;
+  }
+  .road {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .road__list {
+    flex-direction: column;
+    width: 100vw;
+    margin-left: 0;
+  }
+  .road__row:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+  }
+  .road__block {
+    width: 60vw;
+    height: 35vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .road__text {
+    width: 50vw;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .row-wrapper:nth-child(1) {
+    width: 100vw;
+    display: flex;
+  }
+  .row-wrapper:nth-child(2) {
+    width: 90vw;
+    display: flex;
+    justify-content: end;
+    margin: 8% 0 8% 0;
+  }
+  .row-wrapper:nth-child(3) {
+    width: 100vw;
+    display: flex;
+  }
+  .tokn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .tokn__block:nth-child(1) {
+    width: 90vw;
+    height: 5vh;
+  }
+  .tokn__block:nth-child(2) {
+    width: 90vw;
+    height: 25vh;
+  }
+  .tokn__block:nth-child(3) {
+    width: 90vw;
+    height: 7vh;
+  }
+  .tokn__block:nth-child(4) {
+    width: 90vw;
+    height: 5vh;
+  }
+  .drop {
+    width: 90vw;
+    height: 30vh;
+    justify-content: space-around;
+    margin-bottom: 8%;
+  }
+  .info__title {
+    font-size: 28px;
+  }
+  .drop__title {
+    font-size: 20px;
+  }
+  .drop__text {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .drop__img {
+    width: 30vw;
+    height: 18vh;
+  }
+}

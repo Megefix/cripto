@@ -1,0 +1,106 @@
+.team__block {
+  width: 38vw;
+  height: 110vh;
+  background: #ffffff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px 10px 10px;
+}
+.team__part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.team {
+  width: 80vw;
+  margin-top: 15%;
+}
+.team__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+.team__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.team__img {
+  width: 32vw;
+  height: 66vh;
+  border-radius: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+.team__text {
+  width: 32vw;
+}
+.div {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.road__block {
+  width: 28vw;
+  height: 45vh;
+  background-color: #ffffff;
+  border-radius: 28px;
+  padding: 60px 80px 30px 30px;
+}
+.road__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+.road {
+  padding: 0;
+}
+.road__img {
+  width: 8vw;
+  height: 10vh;
+}
+.title__block {
+  padding: 0 100px 0 100px;
+}
+.road__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+}
+.road__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 22vw;
+}
+.road__row:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
